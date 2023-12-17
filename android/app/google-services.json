@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "925058707136",
+    "project_id": "humantekapp-efa20",
+    "storage_bucket": "humantekapp-efa20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925058707136:android:e165cbe3dfa07b6c9e0725",
+        "android_client_info": {
+          "package_name": "com.example.human_tek_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBScbRl4oPdMttrJ0HSZruz5IAmlrOeUUA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

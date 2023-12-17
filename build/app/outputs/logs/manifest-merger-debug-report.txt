@@ -1,0 +1,946 @@
+-- Merging decision tree log ---
+application
+INJECTED from /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/android/app/src/main/AndroidManifest.xml:4:4-34:19
+MERGED from [:firebase_auth] /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_auth] /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_core] /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_core] /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [com.stripe:paymentsheet:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/0de316cb2362d8de9db7be118fe9e066/transformed/jetified-paymentsheet-20.15.4/AndroidManifest.xml:9:5-26:19
+MERGED from [com.stripe:paymentsheet:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/0de316cb2362d8de9db7be118fe9e066/transformed/jetified-paymentsheet-20.15.4/AndroidManifest.xml:9:5-26:19
+MERGED from [com.stripe:link:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/a853669d1f0128b8df22b00fe66ef467/transformed/jetified-link-20.15.4/AndroidManifest.xml:9:5-16:19
+MERGED from [com.stripe:link:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/a853669d1f0128b8df22b00fe66ef467/transformed/jetified-link-20.15.4/AndroidManifest.xml:9:5-16:19
+MERGED from [com.stripe:financial-connections:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/fcca9434f6440ed6eeb6da81668ac882/transformed/jetified-financial-connections-20.15.4/AndroidManifest.xml:22:5-53:19
+MERGED from [com.stripe:financial-connections:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/fcca9434f6440ed6eeb6da81668ac882/transformed/jetified-financial-connections-20.15.4/AndroidManifest.xml:22:5-53:19
+MERGED from [com.stripe:payments-ui-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/ef77100ff4706a26a39e57056065fe80/transformed/jetified-payments-ui-core-20.15.4/AndroidManifest.xml:9:5-14:19
+MERGED from [com.stripe:payments-ui-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/ef77100ff4706a26a39e57056065fe80/transformed/jetified-payments-ui-core-20.15.4/AndroidManifest.xml:9:5-14:19
+MERGED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:16:5-90:19
+MERGED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:16:5-90:19
+MERGED from [com.stripe:stripe-3ds2-android:6.1.5] /Users/twinprogrammers/.gradle/caches/transforms-3/e42ca98e791ddbe37fb8f0c324a5b15d/transformed/jetified-stripe-3ds2-android-6.1.5/AndroidManifest.xml:9:5-14:19
+MERGED from [com.stripe:stripe-3ds2-android:6.1.5] /Users/twinprogrammers/.gradle/caches/transforms-3/e42ca98e791ddbe37fb8f0c324a5b15d/transformed/jetified-stripe-3ds2-android-6.1.5/AndroidManifest.xml:9:5-14:19
+MERGED from [com.google.android.material:material:1.6.0] /Users/twinprogrammers/.gradle/caches/transforms-3/a8c552427a4b9d6a808cd7bde43b02be/transformed/material-1.6.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.6.0] /Users/twinprogrammers/.gradle/caches/transforms-3/a8c552427a4b9d6a808cd7bde43b02be/transformed/material-1.6.0/AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/twinprogrammers/.gradle/caches/transforms-3/33ae87d468d8926f945b3c3f615ccad6/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/twinprogrammers/.gradle/caches/transforms-3/33ae87d468d8926f945b3c3f615ccad6/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [com.airbnb.android:mavericks:2.7.0] /Users/twinprogrammers/.gradle/caches/transforms-3/e5e615709b794153073ce51c734731c7/transformed/jetified-mavericks-2.7.0/AndroidManifest.xml:9:5-20
+MERGED from [com.airbnb.android:mavericks:2.7.0] /Users/twinprogrammers/.gradle/caches/transforms-3/e5e615709b794153073ce51c734731c7/transformed/jetified-mavericks-2.7.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/twinprogrammers/.gradle/caches/transforms-3/ec4f7ec12d91e097f7bb25ff1bb6bc71/transformed/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/twinprogrammers/.gradle/caches/transforms-3/ec4f7ec12d91e097f7bb25ff1bb6bc71/transformed/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [com.google.firebase:firebase-auth:22.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/0e288c23150ea98627653f6f9a78c1a4/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:22.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/0e288c23150ea98627653f6f9a78c1a4/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/5ff02c3b2050b4049110c78d1956b552/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/5ff02c3b2050b4049110c78d1956b552/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/twinprogrammers/.gradle/caches/transforms-3/e170dac69fec62a6cd7762c611d62c43/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/twinprogrammers/.gradle/caches/transforms-3/e170dac69fec62a6cd7762c611d62c43/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/twinprogrammers/.gradle/caches/transforms-3/3c460608ab09e296eb3e043fe9961b74/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/twinprogrammers/.gradle/caches/transforms-3/3c460608ab09e296eb3e043fe9961b74/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.android.play:integrity:1.1.0] /Users/twinprogrammers/.gradle/caches/transforms-3/85a2508d8bd8706e1011590a94649bb3/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.1.0] /Users/twinprogrammers/.gradle/caches/transforms-3/85a2508d8bd8706e1011590a94649bb3/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/8a88e7d7cfdaee97f0892e9d223f6e63/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/8a88e7d7cfdaee97f0892e9d223f6e63/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.android.gms:play-services-identity:18.0.1] /Users/twinprogrammers/.gradle/caches/transforms-3/c0f13742f9f20e5b21a0ee6dd95832df/transformed/jetified-play-services-identity-18.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:18.0.1] /Users/twinprogrammers/.gradle/caches/transforms-3/c0f13742f9f20e5b21a0ee6dd95832df/transformed/jetified-play-services-identity-18.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/twinprogrammers/.gradle/caches/transforms-3/fc4e0135201e11c478742126d5d9a178/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/twinprogrammers/.gradle/caches/transforms-3/fc4e0135201e11c478742126d5d9a178/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/twinprogrammers/.gradle/caches/transforms-3/4456ec95dc8de64d8fb4368ae916802e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/twinprogrammers/.gradle/caches/transforms-3/4456ec95dc8de64d8fb4368ae916802e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/twinprogrammers/.gradle/caches/transforms-3/b166f2f572e2cff307c5e174b5ecce7f/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/twinprogrammers/.gradle/caches/transforms-3/b166f2f572e2cff307c5e174b5ecce7f/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/twinprogrammers/.gradle/caches/transforms-3/3f3474a753e5a1b1c7fb1eefab13dc5a/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/twinprogrammers/.gradle/caches/transforms-3/3f3474a753e5a1b1c7fb1eefab13dc5a/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/twinprogrammers/.gradle/caches/transforms-3/0c51099c9159b68d0fe99e13bf07b9df/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/twinprogrammers/.gradle/caches/transforms-3/0c51099c9159b68d0fe99e13bf07b9df/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/2d37a6e46142298ee39f3ccb63051524/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/2d37a6e46142298ee39f3ccb63051524/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/8e81b10a8970c2d35eb24f959edbc917/transformed/jetified-profileinstaller-1.2.0/AndroidManifest.xml:24:5-48:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/8e81b10a8970c2d35eb24f959edbc917/transformed/jetified-profileinstaller-1.2.0/AndroidManifest.xml:24:5-48:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/twinprogrammers/.gradle/caches/transforms-3/4db415c24a44ca8a6cc57d1a7172e531/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/twinprogrammers/.gradle/caches/transforms-3/4db415c24a44ca8a6cc57d1a7172e531/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/twinprogrammers/.gradle/caches/transforms-3/ac6f35a5458531f1a344e2d1cfed34d3/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/twinprogrammers/.gradle/caches/transforms-3/ac6f35a5458531f1a344e2d1cfed34d3/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/twinprogrammers/.gradle/caches/transforms-3/342e6ba2a2b064b9ec786ad33aa8b30c/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/twinprogrammers/.gradle/caches/transforms-3/342e6ba2a2b064b9ec786ad33aa8b30c/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.9.0] /Users/twinprogrammers/.gradle/caches/transforms-3/a9d7dcf69bf27fe0e89d9527cd94680f/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] /Users/twinprogrammers/.gradle/caches/transforms-3/a9d7dcf69bf27fe0e89d9527cd94680f/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/twinprogrammers/.gradle/caches/transforms-3/3c5ce6d0a4ed5fd31bb55a33a9a885ca/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/twinprogrammers/.gradle/caches/transforms-3/3c5ce6d0a4ed5fd31bb55a33a9a885ca/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.instantapps:instantapps:1.1.0] /Users/twinprogrammers/.gradle/caches/transforms-3/eb4c0274db972fba2f8496d7c0dd61cb/transformed/jetified-instantapps-1.1.0/AndroidManifest.xml:9:5-13:19
+MERGED from [com.google.android.instantapps:instantapps:1.1.0] /Users/twinprogrammers/.gradle/caches/transforms-3/eb4c0274db972fba2f8496d7c0dd61cb/transformed/jetified-instantapps-1.1.0/AndroidManifest.xml:9:5-13:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] /Users/twinprogrammers/.gradle/caches/transforms-3/a9d7dcf69bf27fe0e89d9527cd94680f/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+	android:name
+		INJECTED from /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/android/app/src/main/AndroidManifest.xml
+manifest
+ADDED from /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/android/app/src/main/AndroidManifest.xml:1:1-35:12
+INJECTED from /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/android/app/src/main/AndroidManifest.xml:1:1-35:12
+INJECTED from /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/android/app/src/main/AndroidManifest.xml:1:1-35:12
+INJECTED from /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/android/app/src/main/AndroidManifest.xml:1:1-35:12
+MERGED from /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/android/app/src/main/AndroidManifest.xml:1:1-35:12
+MERGED from [:firebase_auth] /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_core] /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:flutter_native_splash] /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/build/flutter_native_splash/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:stripe_android] /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/build/stripe_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [com.stripe:stripe-android:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/613952108ae4bbf1d56f281f6ec0cd7a/transformed/jetified-stripe-android-20.15.4/AndroidManifest.xml:2:1-9:12
+MERGED from [com.stripe:paymentsheet:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/0de316cb2362d8de9db7be118fe9e066/transformed/jetified-paymentsheet-20.15.4/AndroidManifest.xml:2:1-28:12
+MERGED from [com.stripe:link:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/a853669d1f0128b8df22b00fe66ef467/transformed/jetified-link-20.15.4/AndroidManifest.xml:2:1-18:12
+MERGED from [com.stripe:financial-connections:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/fcca9434f6440ed6eeb6da81668ac882/transformed/jetified-financial-connections-20.15.4/AndroidManifest.xml:2:1-55:12
+MERGED from [com.stripe:payments-ui-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/ef77100ff4706a26a39e57056065fe80/transformed/jetified-payments-ui-core-20.15.4/AndroidManifest.xml:2:1-16:12
+MERGED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:2:1-92:12
+MERGED from [com.stripe:payments-model:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/e4588df7efcd3ccb07c41d00c041f033/transformed/jetified-payments-model-20.15.4/AndroidManifest.xml:2:1-9:12
+MERGED from [com.stripe:stripe-ui-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/463d654427a55685ce9ce073e76ef03b/transformed/jetified-stripe-ui-core-20.15.4/AndroidManifest.xml:2:1-9:12
+MERGED from [com.stripe:stripe-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/179c3dc2eab4f8a57e91a21cb5c6ba1a/transformed/jetified-stripe-core-20.15.4/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.accompanist:accompanist-navigation-animation:0.27.0] /Users/twinprogrammers/.gradle/caches/transforms-3/a9dc70d056f8d429bd9abe3b988d4408/transformed/jetified-accompanist-navigation-animation-0.27.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-compose:2.5.3] /Users/twinprogrammers/.gradle/caches/transforms-3/4a23fe2008cec02e000f9113ea9e3838/transformed/jetified-navigation-compose-2.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-compose:1.6.1] /Users/twinprogrammers/.gradle/caches/transforms-3/b44f2a3723d179f4d6d3763adf4665ae/transformed/jetified-activity-compose-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-viewbinding:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/cf9fe8173c0229837a4e7455e5baf0ad/transformed/jetified-ui-viewbinding-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout-compose:1.0.1] /Users/twinprogrammers/.gradle/caches/transforms-3/2887be16b751989359449c59f27652b2/transformed/jetified-constraintlayout-compose-1.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.material:material:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/a2e6feb4d72cd72cc566879f9a57de0f/transformed/jetified-material-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.accompanist:accompanist-flowlayout:0.27.0] /Users/twinprogrammers/.gradle/caches/transforms-3/360bbf80cf0d44fa781e1b2404f34fec/transformed/jetified-accompanist-flowlayout-0.27.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.material:material-ripple:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/322a5da77a7252746c91f83d1a60c64c/transformed/jetified-material-ripple-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.foundation:foundation:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/3a654f0a799fd598890171f0238e0482/transformed/jetified-foundation-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-icons-core:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/cb6afdcb1c33cc6e410034493bb16292/transformed/jetified-material-icons-core-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-livedata:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/ba6e7074ddcd79dd498c61f9392efe05/transformed/jetified-runtime-livedata-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.animation:animation:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/94bdaff6d3668beaab8b78b3672cae93/transformed/jetified-animation-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.foundation:foundation-layout:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/84883f3ae3ef698ba6a992814cd4939d/transformed/jetified-foundation-layout-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.5.1] /Users/twinprogrammers/.gradle/caches/transforms-3/7888fb33f2c310134334cd7776d291fc/transformed/jetified-lifecycle-viewmodel-compose-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.animation:animation-core:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/54f92c8a208b030576d2c6b1a40fbbb4/transformed/jetified-animation-core-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/ff6ee4c520c65531eb83c06a7b1f3749/transformed/jetified-ui-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.stripe:stripe-3ds2-android:6.1.5] /Users/twinprogrammers/.gradle/caches/transforms-3/e42ca98e791ddbe37fb8f0c324a5b15d/transformed/jetified-stripe-3ds2-android-6.1.5/AndroidManifest.xml:2:1-16:12
+MERGED from [androidx.fragment:fragment-ktx:1.5.3] /Users/twinprogrammers/.gradle/caches/transforms-3/7fc217b10ce6cc545a753228912569f8/transformed/jetified-fragment-ktx-1.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.6.0] /Users/twinprogrammers/.gradle/caches/transforms-3/a8c552427a4b9d6a808cd7bde43b02be/transformed/material-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/twinprogrammers/.gradle/caches/transforms-3/33ae87d468d8926f945b3c3f615ccad6/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [com.airbnb.android:mavericks:2.7.0] /Users/twinprogrammers/.gradle/caches/transforms-3/e5e615709b794153073ce51c734731c7/transformed/jetified-mavericks-2.7.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /Users/twinprogrammers/.gradle/caches/transforms-3/3d6afab57fe2a0d0d31109cd14ea214b/transformed/jetified-appcompat-resources-1.5.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/twinprogrammers/.gradle/caches/transforms-3/3d7dddebcba7173f1a5cf0b84f4a30a6/transformed/appcompat-1.5.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/twinprogrammers/.gradle/caches/transforms-3/ec4f7ec12d91e097f7bb25ff1bb6bc71/transformed/jetified-glide-4.12.0/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/5fe864ad5f5af7c74e616d429114d6cf/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth:22.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/0e288c23150ea98627653f6f9a78c1a4/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:17:1-75:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/53dc2f9530b9ad41cc0305f3d0eea788/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/5ff02c3b2050b4049110c78d1956b552/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/twinprogrammers/.gradle/caches/transforms-3/e170dac69fec62a6cd7762c611d62c43/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/twinprogrammers/.gradle/caches/transforms-3/3c460608ab09e296eb3e043fe9961b74/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/twinprogrammers/.gradle/caches/transforms-3/731aeb845b53b67f7489925c09832239/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/twinprogrammers/.gradle/caches/transforms-3/8044603b59fe1392abeb395319ca879f/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.play:integrity:1.1.0] /Users/twinprogrammers/.gradle/caches/transforms-3/85a2508d8bd8706e1011590a94649bb3/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/8a88e7d7cfdaee97f0892e9d223f6e63/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:15:1-25:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/twinprogrammers/.gradle/caches/transforms-3/6ac8fe00318eac3846ce169222ce2b77/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.5.1] /Users/twinprogrammers/.gradle/caches/transforms-3/5505319216add3838ac52ef920e631e0/transformed/jetified-lifecycle-livedata-ktx-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-text:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/2243a6d4cb9b4c647ddabc2594a76a61/transformed/jetified-ui-text-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-wallet:19.1.0] /Users/twinprogrammers/.gradle/caches/transforms-3/8a5f1961b882e25b818980c845a52d9d/transformed/jetified-play-services-wallet-19.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-identity:18.0.1] /Users/twinprogrammers/.gradle/caches/transforms-3/c0f13742f9f20e5b21a0ee6dd95832df/transformed/jetified-play-services-identity-18.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/twinprogrammers/.gradle/caches/transforms-3/fc4e0135201e11c478742126d5d9a178/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/twinprogrammers/.gradle/caches/transforms-3/4456ec95dc8de64d8fb4368ae916802e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/twinprogrammers/.gradle/caches/transforms-3/b166f2f572e2cff307c5e174b5ecce7f/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/twinprogrammers/.gradle/caches/transforms-3/3f3474a753e5a1b1c7fb1eefab13dc5a/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.5.3] /Users/twinprogrammers/.gradle/caches/transforms-3/ad12134a1c0fb3ea16a21d325487a77e/transformed/fragment-1.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.6.1] /Users/twinprogrammers/.gradle/caches/transforms-3/e4b6ca0a1414069f82217ab57f0108d1/transformed/jetified-activity-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.3] /Users/twinprogrammers/.gradle/caches/transforms-3/5d6899b88bdb405d599d0b0bc70db82a/transformed/navigation-runtime-ktx-2.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.5.3] /Users/twinprogrammers/.gradle/caches/transforms-3/34d57c192881b64b8870f812f8b8948d/transformed/navigation-runtime-2.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.6.1] /Users/twinprogrammers/.gradle/caches/transforms-3/f29e76ff74874235d3bb84a97e7ff4f3/transformed/jetified-activity-ktx-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.5.3] /Users/twinprogrammers/.gradle/caches/transforms-3/0370b567782b36910e17f8277c7c74f1/transformed/navigation-common-ktx-2.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.5.3] /Users/twinprogrammers/.gradle/caches/transforms-3/15baec8ae9f258be84b3338f2f0f3b3e/transformed/navigation-common-2.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] /Users/twinprogrammers/.gradle/caches/transforms-3/36b6ba10e2896ccf30debda6bd024440/transformed/jetified-lifecycle-viewmodel-ktx-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/82d4b8bdd45a5839fdf7e332abea1921/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/7fd9a28992064adc42f534c659480819/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/930b8555537b71b2cb1be979fdbd9a4c/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/9392bf9c28c52616a1e6580ce3b10bc6/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/twinprogrammers/.gradle/caches/transforms-3/62cfeea8213828abba7c52f9a15b2090/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/twinprogrammers/.gradle/caches/transforms-3/f62efec74166e95dfe61d87b56083cdc/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/twinprogrammers/.gradle/caches/transforms-3/0c51099c9159b68d0fe99e13bf07b9df/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] /Users/twinprogrammers/.gradle/caches/transforms-3/a8a58b4742dc71b31a1f9545f4ee624d/transformed/jetified-lifecycle-runtime-ktx-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-tooling-preview:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/c9de8a5d26442aef2ab8217d6d15b7f1/transformed/jetified-ui-tooling-preview-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-saveable:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/a52009c1bbf82b55efd41d6b09f7a4db/transformed/jetified-runtime-saveable-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-graphics:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/bc31c0a5a9e26594b23adc1d87d81393/transformed/jetified-ui-graphics-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-unit:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/6c2b5854da676decf16ff248940afba6/transformed/jetified-ui-unit-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-geometry:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/4c5aa7ff6f2e614daadac82629c9979f/transformed/jetified-ui-geometry-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/a9486cedd1f344e75391559efd35476d/transformed/jetified-runtime-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/9290507a820ff200783d4cbfb13258e4/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/2d37a6e46142298ee39f3ccb63051524/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/8e81b10a8970c2d35eb24f959edbc917/transformed/jetified-profileinstaller-1.2.0/AndroidManifest.xml:17:1-50:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/twinprogrammers/.gradle/caches/transforms-3/4db415c24a44ca8a6cc57d1a7172e531/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/twinprogrammers/.gradle/caches/transforms-3/ac6f35a5458531f1a344e2d1cfed34d3/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/e5eca68dfade4851f8bf627936eb06c6/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/twinprogrammers/.gradle/caches/transforms-3/342e6ba2a2b064b9ec786ad33aa8b30c/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/e1a03b47a4e201bd863496b838881cfe/transformed/exifinterface-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.4.0] /Users/twinprogrammers/.gradle/caches/transforms-3/52bdb465cd3537e0eb13c370deec4479/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/3de32e7c2adaa46d99ec7e2622434b5d/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/twinprogrammers/.gradle/caches/transforms-3/fab4dcc5041fe66087ba69b8b171757a/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/twinprogrammers/.gradle/caches/transforms-3/ca1685aa9dd5fc17040828e0ef557280/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/4c09403b88a0b52b88d820cf57cf34d0/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/twinprogrammers/.gradle/caches/transforms-3/34e324d325330498e53aece7b5804cea/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/twinprogrammers/.gradle/caches/transforms-3/0b4ea9d63e34f61f2709a2ea2bf943bf/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/864f45f5886d3b3ab32717406a9416eb/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/efbf546c06467829ccf663797d80dee3/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.1.5] /Users/twinprogrammers/.gradle/caches/transforms-3/0743876d7f7260222dc97e743b01befb/transformed/jetified-firebase-components-17.1.5/AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/twinprogrammers/.gradle/caches/transforms-3/21762ab0c4cc727dc3dc4edc716ebac6/transformed/recyclerview-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/edeee366529d32a9489259613d8a192a/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/twinprogrammers/.gradle/caches/transforms-3/49e8be87640dddf07252708781a57968/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/bb921c20795151d05a28183736f23870/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/398a5750fe3f32b017ed36c46a1be5d1/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/14e4c61259648f506360e2efc12f6ada/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/twinprogrammers/.gradle/caches/transforms-3/e7a25e39eb9c1f6abba5dc49a8719d98/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/6cdabcd1dbb9af0f13806068c17b9d97/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/35e9c3213e445de6ec83471ab0bda212/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.9.0] /Users/twinprogrammers/.gradle/caches/transforms-3/a9d7dcf69bf27fe0e89d9527cd94680f/transformed/core-1.9.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.databinding:viewbinding:7.3.1] /Users/twinprogrammers/.gradle/caches/transforms-3/4f7295efec5583700fdec6af2fc428a0/transformed/jetified-viewbinding-7.3.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/twinprogrammers/.gradle/caches/transforms-3/d6742946ec0d944bb6972c18b408774a/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/ee7b4de9474d7c1e125c55494eb52043/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/129c81d442c75343941cc7b4e8fcce9c/transformed/jetified-savedstate-ktx-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/0533f960dd7ee25ddf44d8668b2dca8a/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.5.1] /Users/twinprogrammers/.gradle/caches/transforms-3/e1c30590cf397c736f45dd9850c7badf/transformed/lifecycle-livedata-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] /Users/twinprogrammers/.gradle/caches/transforms-3/4e90d4ef4bffbeb4506f538575f5cd8a/transformed/jetified-lifecycle-livedata-core-ktx-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/twinprogrammers/.gradle/caches/transforms-3/ba37756cd99f7823f10924143544c4fd/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.security:security-crypto:1.1.0-alpha03] /Users/twinprogrammers/.gradle/caches/transforms-3/3c3be3e0df338c4d3aad4a74e5bc1c0a/transformed/jetified-security-crypto-1.1.0-alpha03/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/twinprogrammers/.gradle/caches/transforms-3/3c5ce6d0a4ed5fd31bb55a33a9a885ca/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/939cd80188eaa2e7ed77105e81254c3d/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/4e6631a8c9ee2b7f6d2a62924713a3ee/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/7c6fe5ac26b06bfb2713500596b4b05e/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/twinprogrammers/.gradle/caches/transforms-3/d46855a57743bfcce8b28af4d26174b3/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-util:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/6f56548146ec4badc0a803783df794d3/transformed/jetified-ui-util-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/48889935d8c3d5fd57561dc48e0912da/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.instantapps:instantapps:1.1.0] /Users/twinprogrammers/.gradle/caches/transforms-3/eb4c0274db972fba2f8496d7c0dd61cb/transformed/jetified-instantapps-1.1.0/AndroidManifest.xml:2:1-15:12
+MERGED from [androidx.test.espresso:espresso-idling-resource:3.4.0] /Users/twinprogrammers/.gradle/caches/transforms-3/05103d75e89db2853e97f619b3c70b14/transformed/espresso-idling-resource-3.4.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/android/app/src/debug/AndroidManifest.xml:1:1-8:12
+INJECTED from /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/android/app/src/debug/AndroidManifest.xml:1:1-8:12
+INJECTED from /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/android/app/src/debug/AndroidManifest.xml:1:1-8:12
+	package
+		ADDED from /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/android/app/src/main/AndroidManifest.xml:2:5-40
+		INJECTED from /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/android/app/src/main/AndroidManifest.xml:1:1-35:12
+		INJECTED from /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/android/app/src/main/AndroidManifest.xml:1:1-35:12
+		INJECTED from /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/android/app/src/main/AndroidManifest.xml:3:6-67
+MERGED from /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/android/app/src/main/AndroidManifest.xml:3:6-67
+MERGED from /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/android/app/src/main/AndroidManifest.xml:3:6-67
+MERGED from [com.stripe:financial-connections:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/fcca9434f6440ed6eeb6da81668ac882/transformed/jetified-financial-connections-20.15.4/AndroidManifest.xml:9:5-67
+MERGED from [com.stripe:financial-connections:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/fcca9434f6440ed6eeb6da81668ac882/transformed/jetified-financial-connections-20.15.4/AndroidManifest.xml:9:5-67
+MERGED from [com.google.firebase:firebase-auth:22.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/0e288c23150ea98627653f6f9a78c1a4/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-auth:22.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/0e288c23150ea98627653f6f9a78c1a4/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/twinprogrammers/.gradle/caches/transforms-3/8044603b59fe1392abeb395319ca879f/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/twinprogrammers/.gradle/caches/transforms-3/8044603b59fe1392abeb395319ca879f/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/twinprogrammers/.gradle/caches/transforms-3/fc4e0135201e11c478742126d5d9a178/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/twinprogrammers/.gradle/caches/transforms-3/fc4e0135201e11c478742126d5d9a178/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/android/app/src/main/AndroidManifest.xml:3:23-65
+uses-sdk
+INJECTED from /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/android/app/src/main/AndroidManifest.xml
+MERGED from [:firebase_auth] /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_auth] /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_native_splash] /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/build/flutter_native_splash/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_native_splash] /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/build/flutter_native_splash/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:stripe_android] /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/build/stripe_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:stripe_android] /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/build/stripe_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.stripe:stripe-android:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/613952108ae4bbf1d56f281f6ec0cd7a/transformed/jetified-stripe-android-20.15.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.stripe:stripe-android:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/613952108ae4bbf1d56f281f6ec0cd7a/transformed/jetified-stripe-android-20.15.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.stripe:paymentsheet:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/0de316cb2362d8de9db7be118fe9e066/transformed/jetified-paymentsheet-20.15.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.stripe:paymentsheet:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/0de316cb2362d8de9db7be118fe9e066/transformed/jetified-paymentsheet-20.15.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.stripe:link:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/a853669d1f0128b8df22b00fe66ef467/transformed/jetified-link-20.15.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.stripe:link:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/a853669d1f0128b8df22b00fe66ef467/transformed/jetified-link-20.15.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.stripe:financial-connections:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/fcca9434f6440ed6eeb6da81668ac882/transformed/jetified-financial-connections-20.15.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.stripe:financial-connections:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/fcca9434f6440ed6eeb6da81668ac882/transformed/jetified-financial-connections-20.15.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.stripe:payments-ui-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/ef77100ff4706a26a39e57056065fe80/transformed/jetified-payments-ui-core-20.15.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.stripe:payments-ui-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/ef77100ff4706a26a39e57056065fe80/transformed/jetified-payments-ui-core-20.15.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.stripe:payments-model:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/e4588df7efcd3ccb07c41d00c041f033/transformed/jetified-payments-model-20.15.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.stripe:payments-model:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/e4588df7efcd3ccb07c41d00c041f033/transformed/jetified-payments-model-20.15.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.stripe:stripe-ui-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/463d654427a55685ce9ce073e76ef03b/transformed/jetified-stripe-ui-core-20.15.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.stripe:stripe-ui-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/463d654427a55685ce9ce073e76ef03b/transformed/jetified-stripe-ui-core-20.15.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.stripe:stripe-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/179c3dc2eab4f8a57e91a21cb5c6ba1a/transformed/jetified-stripe-core-20.15.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.stripe:stripe-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/179c3dc2eab4f8a57e91a21cb5c6ba1a/transformed/jetified-stripe-core-20.15.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.accompanist:accompanist-navigation-animation:0.27.0] /Users/twinprogrammers/.gradle/caches/transforms-3/a9dc70d056f8d429bd9abe3b988d4408/transformed/jetified-accompanist-navigation-animation-0.27.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.accompanist:accompanist-navigation-animation:0.27.0] /Users/twinprogrammers/.gradle/caches/transforms-3/a9dc70d056f8d429bd9abe3b988d4408/transformed/jetified-accompanist-navigation-animation-0.27.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-compose:2.5.3] /Users/twinprogrammers/.gradle/caches/transforms-3/4a23fe2008cec02e000f9113ea9e3838/transformed/jetified-navigation-compose-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-compose:2.5.3] /Users/twinprogrammers/.gradle/caches/transforms-3/4a23fe2008cec02e000f9113ea9e3838/transformed/jetified-navigation-compose-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-compose:1.6.1] /Users/twinprogrammers/.gradle/caches/transforms-3/b44f2a3723d179f4d6d3763adf4665ae/transformed/jetified-activity-compose-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.6.1] /Users/twinprogrammers/.gradle/caches/transforms-3/b44f2a3723d179f4d6d3763adf4665ae/transformed/jetified-activity-compose-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-viewbinding:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/cf9fe8173c0229837a4e7455e5baf0ad/transformed/jetified-ui-viewbinding-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-viewbinding:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/cf9fe8173c0229837a4e7455e5baf0ad/transformed/jetified-ui-viewbinding-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout-compose:1.0.1] /Users/twinprogrammers/.gradle/caches/transforms-3/2887be16b751989359449c59f27652b2/transformed/jetified-constraintlayout-compose-1.0.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout-compose:1.0.1] /Users/twinprogrammers/.gradle/caches/transforms-3/2887be16b751989359449c59f27652b2/transformed/jetified-constraintlayout-compose-1.0.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/a2e6feb4d72cd72cc566879f9a57de0f/transformed/jetified-material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/a2e6feb4d72cd72cc566879f9a57de0f/transformed/jetified-material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.accompanist:accompanist-flowlayout:0.27.0] /Users/twinprogrammers/.gradle/caches/transforms-3/360bbf80cf0d44fa781e1b2404f34fec/transformed/jetified-accompanist-flowlayout-0.27.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.accompanist:accompanist-flowlayout:0.27.0] /Users/twinprogrammers/.gradle/caches/transforms-3/360bbf80cf0d44fa781e1b2404f34fec/transformed/jetified-accompanist-flowlayout-0.27.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material-ripple:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/322a5da77a7252746c91f83d1a60c64c/transformed/jetified-material-ripple-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-ripple:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/322a5da77a7252746c91f83d1a60c64c/transformed/jetified-material-ripple-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.foundation:foundation:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/3a654f0a799fd598890171f0238e0482/transformed/jetified-foundation-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.foundation:foundation:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/3a654f0a799fd598890171f0238e0482/transformed/jetified-foundation-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-icons-core:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/cb6afdcb1c33cc6e410034493bb16292/transformed/jetified-material-icons-core-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-icons-core:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/cb6afdcb1c33cc6e410034493bb16292/transformed/jetified-material-icons-core-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-livedata:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/ba6e7074ddcd79dd498c61f9392efe05/transformed/jetified-runtime-livedata-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-livedata:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/ba6e7074ddcd79dd498c61f9392efe05/transformed/jetified-runtime-livedata-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/94bdaff6d3668beaab8b78b3672cae93/transformed/jetified-animation-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/94bdaff6d3668beaab8b78b3672cae93/transformed/jetified-animation-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.foundation:foundation-layout:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/84883f3ae3ef698ba6a992814cd4939d/transformed/jetified-foundation-layout-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.foundation:foundation-layout:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/84883f3ae3ef698ba6a992814cd4939d/transformed/jetified-foundation-layout-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.5.1] /Users/twinprogrammers/.gradle/caches/transforms-3/7888fb33f2c310134334cd7776d291fc/transformed/jetified-lifecycle-viewmodel-compose-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.5.1] /Users/twinprogrammers/.gradle/caches/transforms-3/7888fb33f2c310134334cd7776d291fc/transformed/jetified-lifecycle-viewmodel-compose-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.animation:animation-core:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/54f92c8a208b030576d2c6b1a40fbbb4/transformed/jetified-animation-core-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation-core:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/54f92c8a208b030576d2c6b1a40fbbb4/transformed/jetified-animation-core-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/ff6ee4c520c65531eb83c06a7b1f3749/transformed/jetified-ui-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/ff6ee4c520c65531eb83c06a7b1f3749/transformed/jetified-ui-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.stripe:stripe-3ds2-android:6.1.5] /Users/twinprogrammers/.gradle/caches/transforms-3/e42ca98e791ddbe37fb8f0c324a5b15d/transformed/jetified-stripe-3ds2-android-6.1.5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.stripe:stripe-3ds2-android:6.1.5] /Users/twinprogrammers/.gradle/caches/transforms-3/e42ca98e791ddbe37fb8f0c324a5b15d/transformed/jetified-stripe-3ds2-android-6.1.5/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.fragment:fragment-ktx:1.5.3] /Users/twinprogrammers/.gradle/caches/transforms-3/7fc217b10ce6cc545a753228912569f8/transformed/jetified-fragment-ktx-1.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.5.3] /Users/twinprogrammers/.gradle/caches/transforms-3/7fc217b10ce6cc545a753228912569f8/transformed/jetified-fragment-ktx-1.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.6.0] /Users/twinprogrammers/.gradle/caches/transforms-3/a8c552427a4b9d6a808cd7bde43b02be/transformed/material-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.6.0] /Users/twinprogrammers/.gradle/caches/transforms-3/a8c552427a4b9d6a808cd7bde43b02be/transformed/material-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/twinprogrammers/.gradle/caches/transforms-3/33ae87d468d8926f945b3c3f615ccad6/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/twinprogrammers/.gradle/caches/transforms-3/33ae87d468d8926f945b3c3f615ccad6/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:mavericks:2.7.0] /Users/twinprogrammers/.gradle/caches/transforms-3/e5e615709b794153073ce51c734731c7/transformed/jetified-mavericks-2.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:mavericks:2.7.0] /Users/twinprogrammers/.gradle/caches/transforms-3/e5e615709b794153073ce51c734731c7/transformed/jetified-mavericks-2.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /Users/twinprogrammers/.gradle/caches/transforms-3/3d6afab57fe2a0d0d31109cd14ea214b/transformed/jetified-appcompat-resources-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /Users/twinprogrammers/.gradle/caches/transforms-3/3d6afab57fe2a0d0d31109cd14ea214b/transformed/jetified-appcompat-resources-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/twinprogrammers/.gradle/caches/transforms-3/3d7dddebcba7173f1a5cf0b84f4a30a6/transformed/appcompat-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.5.1] /Users/twinprogrammers/.gradle/caches/transforms-3/3d7dddebcba7173f1a5cf0b84f4a30a6/transformed/appcompat-1.5.1/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/twinprogrammers/.gradle/caches/transforms-3/ec4f7ec12d91e097f7bb25ff1bb6bc71/transformed/jetified-glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/twinprogrammers/.gradle/caches/transforms-3/ec4f7ec12d91e097f7bb25ff1bb6bc71/transformed/jetified-glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/5fe864ad5f5af7c74e616d429114d6cf/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/5fe864ad5f5af7c74e616d429114d6cf/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:22.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/0e288c23150ea98627653f6f9a78c1a4/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:21:5-23:64
+MERGED from [com.google.firebase:firebase-auth:22.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/0e288c23150ea98627653f6f9a78c1a4/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:21:5-23:64
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/53dc2f9530b9ad41cc0305f3d0eea788/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/53dc2f9530b9ad41cc0305f3d0eea788/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/5ff02c3b2050b4049110c78d1956b552/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/5ff02c3b2050b4049110c78d1956b552/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/twinprogrammers/.gradle/caches/transforms-3/e170dac69fec62a6cd7762c611d62c43/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/twinprogrammers/.gradle/caches/transforms-3/e170dac69fec62a6cd7762c611d62c43/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/twinprogrammers/.gradle/caches/transforms-3/3c460608ab09e296eb3e043fe9961b74/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/twinprogrammers/.gradle/caches/transforms-3/3c460608ab09e296eb3e043fe9961b74/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:19:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/twinprogrammers/.gradle/caches/transforms-3/731aeb845b53b67f7489925c09832239/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/twinprogrammers/.gradle/caches/transforms-3/731aeb845b53b67f7489925c09832239/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/twinprogrammers/.gradle/caches/transforms-3/8044603b59fe1392abeb395319ca879f/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/twinprogrammers/.gradle/caches/transforms-3/8044603b59fe1392abeb395319ca879f/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.play:integrity:1.1.0] /Users/twinprogrammers/.gradle/caches/transforms-3/85a2508d8bd8706e1011590a94649bb3/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.1.0] /Users/twinprogrammers/.gradle/caches/transforms-3/85a2508d8bd8706e1011590a94649bb3/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/8a88e7d7cfdaee97f0892e9d223f6e63/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/8a88e7d7cfdaee97f0892e9d223f6e63/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/twinprogrammers/.gradle/caches/transforms-3/6ac8fe00318eac3846ce169222ce2b77/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/twinprogrammers/.gradle/caches/transforms-3/6ac8fe00318eac3846ce169222ce2b77/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.5.1] /Users/twinprogrammers/.gradle/caches/transforms-3/5505319216add3838ac52ef920e631e0/transformed/jetified-lifecycle-livedata-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.5.1] /Users/twinprogrammers/.gradle/caches/transforms-3/5505319216add3838ac52ef920e631e0/transformed/jetified-lifecycle-livedata-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-text:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/2243a6d4cb9b4c647ddabc2594a76a61/transformed/jetified-ui-text-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-text:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/2243a6d4cb9b4c647ddabc2594a76a61/transformed/jetified-ui-text-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wallet:19.1.0] /Users/twinprogrammers/.gradle/caches/transforms-3/8a5f1961b882e25b818980c845a52d9d/transformed/jetified-play-services-wallet-19.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wallet:19.1.0] /Users/twinprogrammers/.gradle/caches/transforms-3/8a5f1961b882e25b818980c845a52d9d/transformed/jetified-play-services-wallet-19.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-identity:18.0.1] /Users/twinprogrammers/.gradle/caches/transforms-3/c0f13742f9f20e5b21a0ee6dd95832df/transformed/jetified-play-services-identity-18.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-identity:18.0.1] /Users/twinprogrammers/.gradle/caches/transforms-3/c0f13742f9f20e5b21a0ee6dd95832df/transformed/jetified-play-services-identity-18.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/twinprogrammers/.gradle/caches/transforms-3/fc4e0135201e11c478742126d5d9a178/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/twinprogrammers/.gradle/caches/transforms-3/fc4e0135201e11c478742126d5d9a178/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/twinprogrammers/.gradle/caches/transforms-3/4456ec95dc8de64d8fb4368ae916802e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/twinprogrammers/.gradle/caches/transforms-3/4456ec95dc8de64d8fb4368ae916802e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/twinprogrammers/.gradle/caches/transforms-3/b166f2f572e2cff307c5e174b5ecce7f/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/twinprogrammers/.gradle/caches/transforms-3/b166f2f572e2cff307c5e174b5ecce7f/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/twinprogrammers/.gradle/caches/transforms-3/3f3474a753e5a1b1c7fb1eefab13dc5a/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/twinprogrammers/.gradle/caches/transforms-3/3f3474a753e5a1b1c7fb1eefab13dc5a/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.5.3] /Users/twinprogrammers/.gradle/caches/transforms-3/ad12134a1c0fb3ea16a21d325487a77e/transformed/fragment-1.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.3] /Users/twinprogrammers/.gradle/caches/transforms-3/ad12134a1c0fb3ea16a21d325487a77e/transformed/fragment-1.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.6.1] /Users/twinprogrammers/.gradle/caches/transforms-3/e4b6ca0a1414069f82217ab57f0108d1/transformed/jetified-activity-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.1] /Users/twinprogrammers/.gradle/caches/transforms-3/e4b6ca0a1414069f82217ab57f0108d1/transformed/jetified-activity-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.3] /Users/twinprogrammers/.gradle/caches/transforms-3/5d6899b88bdb405d599d0b0bc70db82a/transformed/navigation-runtime-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.3] /Users/twinprogrammers/.gradle/caches/transforms-3/5d6899b88bdb405d599d0b0bc70db82a/transformed/navigation-runtime-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.5.3] /Users/twinprogrammers/.gradle/caches/transforms-3/34d57c192881b64b8870f812f8b8948d/transformed/navigation-runtime-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.5.3] /Users/twinprogrammers/.gradle/caches/transforms-3/34d57c192881b64b8870f812f8b8948d/transformed/navigation-runtime-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.6.1] /Users/twinprogrammers/.gradle/caches/transforms-3/f29e76ff74874235d3bb84a97e7ff4f3/transformed/jetified-activity-ktx-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.6.1] /Users/twinprogrammers/.gradle/caches/transforms-3/f29e76ff74874235d3bb84a97e7ff4f3/transformed/jetified-activity-ktx-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.5.3] /Users/twinprogrammers/.gradle/caches/transforms-3/0370b567782b36910e17f8277c7c74f1/transformed/navigation-common-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.5.3] /Users/twinprogrammers/.gradle/caches/transforms-3/0370b567782b36910e17f8277c7c74f1/transformed/navigation-common-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.5.3] /Users/twinprogrammers/.gradle/caches/transforms-3/15baec8ae9f258be84b3338f2f0f3b3e/transformed/navigation-common-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.5.3] /Users/twinprogrammers/.gradle/caches/transforms-3/15baec8ae9f258be84b3338f2f0f3b3e/transformed/navigation-common-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] /Users/twinprogrammers/.gradle/caches/transforms-3/36b6ba10e2896ccf30debda6bd024440/transformed/jetified-lifecycle-viewmodel-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] /Users/twinprogrammers/.gradle/caches/transforms-3/36b6ba10e2896ccf30debda6bd024440/transformed/jetified-lifecycle-viewmodel-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/82d4b8bdd45a5839fdf7e332abea1921/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/82d4b8bdd45a5839fdf7e332abea1921/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/7fd9a28992064adc42f534c659480819/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/7fd9a28992064adc42f534c659480819/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/930b8555537b71b2cb1be979fdbd9a4c/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/930b8555537b71b2cb1be979fdbd9a4c/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/9392bf9c28c52616a1e6580ce3b10bc6/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/9392bf9c28c52616a1e6580ce3b10bc6/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/twinprogrammers/.gradle/caches/transforms-3/62cfeea8213828abba7c52f9a15b2090/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/twinprogrammers/.gradle/caches/transforms-3/62cfeea8213828abba7c52f9a15b2090/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/twinprogrammers/.gradle/caches/transforms-3/f62efec74166e95dfe61d87b56083cdc/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/twinprogrammers/.gradle/caches/transforms-3/f62efec74166e95dfe61d87b56083cdc/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/twinprogrammers/.gradle/caches/transforms-3/0c51099c9159b68d0fe99e13bf07b9df/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/twinprogrammers/.gradle/caches/transforms-3/0c51099c9159b68d0fe99e13bf07b9df/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] /Users/twinprogrammers/.gradle/caches/transforms-3/a8a58b4742dc71b31a1f9545f4ee624d/transformed/jetified-lifecycle-runtime-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] /Users/twinprogrammers/.gradle/caches/transforms-3/a8a58b4742dc71b31a1f9545f4ee624d/transformed/jetified-lifecycle-runtime-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-tooling-preview:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/c9de8a5d26442aef2ab8217d6d15b7f1/transformed/jetified-ui-tooling-preview-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/c9de8a5d26442aef2ab8217d6d15b7f1/transformed/jetified-ui-tooling-preview-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/a52009c1bbf82b55efd41d6b09f7a4db/transformed/jetified-runtime-saveable-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/a52009c1bbf82b55efd41d6b09f7a4db/transformed/jetified-runtime-saveable-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/bc31c0a5a9e26594b23adc1d87d81393/transformed/jetified-ui-graphics-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/bc31c0a5a9e26594b23adc1d87d81393/transformed/jetified-ui-graphics-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-unit:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/6c2b5854da676decf16ff248940afba6/transformed/jetified-ui-unit-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-unit:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/6c2b5854da676decf16ff248940afba6/transformed/jetified-ui-unit-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-geometry:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/4c5aa7ff6f2e614daadac82629c9979f/transformed/jetified-ui-geometry-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-geometry:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/4c5aa7ff6f2e614daadac82629c9979f/transformed/jetified-ui-geometry-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/a9486cedd1f344e75391559efd35476d/transformed/jetified-runtime-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/a9486cedd1f344e75391559efd35476d/transformed/jetified-runtime-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/9290507a820ff200783d4cbfb13258e4/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/9290507a820ff200783d4cbfb13258e4/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/2d37a6e46142298ee39f3ccb63051524/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/2d37a6e46142298ee39f3ccb63051524/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/8e81b10a8970c2d35eb24f959edbc917/transformed/jetified-profileinstaller-1.2.0/AndroidManifest.xml:21:5-22:38
+MERGED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/8e81b10a8970c2d35eb24f959edbc917/transformed/jetified-profileinstaller-1.2.0/AndroidManifest.xml:21:5-22:38
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/twinprogrammers/.gradle/caches/transforms-3/4db415c24a44ca8a6cc57d1a7172e531/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/twinprogrammers/.gradle/caches/transforms-3/4db415c24a44ca8a6cc57d1a7172e531/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/twinprogrammers/.gradle/caches/transforms-3/ac6f35a5458531f1a344e2d1cfed34d3/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/twinprogrammers/.gradle/caches/transforms-3/ac6f35a5458531f1a344e2d1cfed34d3/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/e5eca68dfade4851f8bf627936eb06c6/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/e5eca68dfade4851f8bf627936eb06c6/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/twinprogrammers/.gradle/caches/transforms-3/342e6ba2a2b064b9ec786ad33aa8b30c/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/twinprogrammers/.gradle/caches/transforms-3/342e6ba2a2b064b9ec786ad33aa8b30c/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/e1a03b47a4e201bd863496b838881cfe/transformed/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/e1a03b47a4e201bd863496b838881cfe/transformed/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/twinprogrammers/.gradle/caches/transforms-3/52bdb465cd3537e0eb13c370deec4479/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/twinprogrammers/.gradle/caches/transforms-3/52bdb465cd3537e0eb13c370deec4479/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/3de32e7c2adaa46d99ec7e2622434b5d/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/3de32e7c2adaa46d99ec7e2622434b5d/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/twinprogrammers/.gradle/caches/transforms-3/fab4dcc5041fe66087ba69b8b171757a/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/twinprogrammers/.gradle/caches/transforms-3/fab4dcc5041fe66087ba69b8b171757a/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/twinprogrammers/.gradle/caches/transforms-3/ca1685aa9dd5fc17040828e0ef557280/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/twinprogrammers/.gradle/caches/transforms-3/ca1685aa9dd5fc17040828e0ef557280/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/4c09403b88a0b52b88d820cf57cf34d0/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/4c09403b88a0b52b88d820cf57cf34d0/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/twinprogrammers/.gradle/caches/transforms-3/34e324d325330498e53aece7b5804cea/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/twinprogrammers/.gradle/caches/transforms-3/34e324d325330498e53aece7b5804cea/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/twinprogrammers/.gradle/caches/transforms-3/0b4ea9d63e34f61f2709a2ea2bf943bf/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/twinprogrammers/.gradle/caches/transforms-3/0b4ea9d63e34f61f2709a2ea2bf943bf/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/864f45f5886d3b3ab32717406a9416eb/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/864f45f5886d3b3ab32717406a9416eb/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/efbf546c06467829ccf663797d80dee3/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/efbf546c06467829ccf663797d80dee3/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.1.5] /Users/twinprogrammers/.gradle/caches/transforms-3/0743876d7f7260222dc97e743b01befb/transformed/jetified-firebase-components-17.1.5/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:17.1.5] /Users/twinprogrammers/.gradle/caches/transforms-3/0743876d7f7260222dc97e743b01befb/transformed/jetified-firebase-components-17.1.5/AndroidManifest.xml:18:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/twinprogrammers/.gradle/caches/transforms-3/21762ab0c4cc727dc3dc4edc716ebac6/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/twinprogrammers/.gradle/caches/transforms-3/21762ab0c4cc727dc3dc4edc716ebac6/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/edeee366529d32a9489259613d8a192a/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/edeee366529d32a9489259613d8a192a/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/twinprogrammers/.gradle/caches/transforms-3/49e8be87640dddf07252708781a57968/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/twinprogrammers/.gradle/caches/transforms-3/49e8be87640dddf07252708781a57968/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/bb921c20795151d05a28183736f23870/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/bb921c20795151d05a28183736f23870/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/398a5750fe3f32b017ed36c46a1be5d1/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/398a5750fe3f32b017ed36c46a1be5d1/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/14e4c61259648f506360e2efc12f6ada/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/14e4c61259648f506360e2efc12f6ada/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/twinprogrammers/.gradle/caches/transforms-3/e7a25e39eb9c1f6abba5dc49a8719d98/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/twinprogrammers/.gradle/caches/transforms-3/e7a25e39eb9c1f6abba5dc49a8719d98/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/6cdabcd1dbb9af0f13806068c17b9d97/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/6cdabcd1dbb9af0f13806068c17b9d97/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/35e9c3213e445de6ec83471ab0bda212/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/35e9c3213e445de6ec83471ab0bda212/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /Users/twinprogrammers/.gradle/caches/transforms-3/a9d7dcf69bf27fe0e89d9527cd94680f/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /Users/twinprogrammers/.gradle/caches/transforms-3/a9d7dcf69bf27fe0e89d9527cd94680f/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:7.3.1] /Users/twinprogrammers/.gradle/caches/transforms-3/4f7295efec5583700fdec6af2fc428a0/transformed/jetified-viewbinding-7.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:viewbinding:7.3.1] /Users/twinprogrammers/.gradle/caches/transforms-3/4f7295efec5583700fdec6af2fc428a0/transformed/jetified-viewbinding-7.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/twinprogrammers/.gradle/caches/transforms-3/d6742946ec0d944bb6972c18b408774a/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/twinprogrammers/.gradle/caches/transforms-3/d6742946ec0d944bb6972c18b408774a/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/ee7b4de9474d7c1e125c55494eb52043/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/ee7b4de9474d7c1e125c55494eb52043/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/129c81d442c75343941cc7b4e8fcce9c/transformed/jetified-savedstate-ktx-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/129c81d442c75343941cc7b4e8fcce9c/transformed/jetified-savedstate-ktx-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/0533f960dd7ee25ddf44d8668b2dca8a/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/0533f960dd7ee25ddf44d8668b2dca8a/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.5.1] /Users/twinprogrammers/.gradle/caches/transforms-3/e1c30590cf397c736f45dd9850c7badf/transformed/lifecycle-livedata-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.5.1] /Users/twinprogrammers/.gradle/caches/transforms-3/e1c30590cf397c736f45dd9850c7badf/transformed/lifecycle-livedata-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] /Users/twinprogrammers/.gradle/caches/transforms-3/4e90d4ef4bffbeb4506f538575f5cd8a/transformed/jetified-lifecycle-livedata-core-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] /Users/twinprogrammers/.gradle/caches/transforms-3/4e90d4ef4bffbeb4506f538575f5cd8a/transformed/jetified-lifecycle-livedata-core-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/twinprogrammers/.gradle/caches/transforms-3/ba37756cd99f7823f10924143544c4fd/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/twinprogrammers/.gradle/caches/transforms-3/ba37756cd99f7823f10924143544c4fd/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.security:security-crypto:1.1.0-alpha03] /Users/twinprogrammers/.gradle/caches/transforms-3/3c3be3e0df338c4d3aad4a74e5bc1c0a/transformed/jetified-security-crypto-1.1.0-alpha03/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.security:security-crypto:1.1.0-alpha03] /Users/twinprogrammers/.gradle/caches/transforms-3/3c3be3e0df338c4d3aad4a74e5bc1c0a/transformed/jetified-security-crypto-1.1.0-alpha03/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/twinprogrammers/.gradle/caches/transforms-3/3c5ce6d0a4ed5fd31bb55a33a9a885ca/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/twinprogrammers/.gradle/caches/transforms-3/3c5ce6d0a4ed5fd31bb55a33a9a885ca/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/939cd80188eaa2e7ed77105e81254c3d/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/939cd80188eaa2e7ed77105e81254c3d/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/4e6631a8c9ee2b7f6d2a62924713a3ee/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/4e6631a8c9ee2b7f6d2a62924713a3ee/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/7c6fe5ac26b06bfb2713500596b4b05e/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/twinprogrammers/.gradle/caches/transforms-3/7c6fe5ac26b06bfb2713500596b4b05e/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/twinprogrammers/.gradle/caches/transforms-3/d46855a57743bfcce8b28af4d26174b3/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/twinprogrammers/.gradle/caches/transforms-3/d46855a57743bfcce8b28af4d26174b3/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-util:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/6f56548146ec4badc0a803783df794d3/transformed/jetified-ui-util-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-util:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/6f56548146ec4badc0a803783df794d3/transformed/jetified-ui-util-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/48889935d8c3d5fd57561dc48e0912da/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/48889935d8c3d5fd57561dc48e0912da/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.instantapps:instantapps:1.1.0] /Users/twinprogrammers/.gradle/caches/transforms-3/eb4c0274db972fba2f8496d7c0dd61cb/transformed/jetified-instantapps-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.instantapps:instantapps:1.1.0] /Users/twinprogrammers/.gradle/caches/transforms-3/eb4c0274db972fba2f8496d7c0dd61cb/transformed/jetified-instantapps-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.test.espresso:espresso-idling-resource:3.4.0] /Users/twinprogrammers/.gradle/caches/transforms-3/05103d75e89db2853e97f619b3c70b14/transformed/espresso-idling-resource-3.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.espresso:espresso-idling-resource:3.4.0] /Users/twinprogrammers/.gradle/caches/transforms-3/05103d75e89db2853e97f619b3c70b14/transformed/espresso-idling-resource-3.4.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/android/app/src/debug/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/0e288c23150ea98627653f6f9a78c1a4/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:23:9-61
+	android:targetSdkVersion
+		INJECTED from /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/android/app/src/debug/AndroidManifest.xml
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:firebase_auth] /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [com.google.firebase:firebase-auth:22.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/0e288c23150ea98627653f6f9a78c1a4/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-auth:22.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/0e288c23150ea98627653f6f9a78c1a4/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/twinprogrammers/.gradle/caches/transforms-3/e170dac69fec62a6cd7762c611d62c43/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/twinprogrammers/.gradle/caches/transforms-3/e170dac69fec62a6cd7762c611d62c43/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/twinprogrammers/.gradle/caches/transforms-3/3c460608ab09e296eb3e043fe9961b74/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/twinprogrammers/.gradle/caches/transforms-3/3c460608ab09e296eb3e043fe9961b74/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:30:9-38:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/0e288c23150ea98627653f6f9a78c1a4/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:68:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/twinprogrammers/.gradle/caches/transforms-3/3c460608ab09e296eb3e043fe9961b74/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/twinprogrammers/.gradle/caches/transforms-3/3c460608ab09e296eb3e043fe9961b74/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [:firebase_auth] /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
+ADDED from [:firebase_auth] /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_auth] /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_auth] /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_core] /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_core] /Users/twinprogrammers/Library/Mobile Documents/com~apple~CloudDocs/human_tek_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+activity#com.stripe.android.paymentsheet.PaymentSheetActivity
+ADDED from [com.stripe:paymentsheet:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/0de316cb2362d8de9db7be118fe9e066/transformed/jetified-paymentsheet-20.15.4/AndroidManifest.xml:10:9-13:69
+	android:exported
+		ADDED from [com.stripe:paymentsheet:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/0de316cb2362d8de9db7be118fe9e066/transformed/jetified-paymentsheet-20.15.4/AndroidManifest.xml:12:13-37
+	android:theme
+		ADDED from [com.stripe:paymentsheet:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/0de316cb2362d8de9db7be118fe9e066/transformed/jetified-paymentsheet-20.15.4/AndroidManifest.xml:13:13-66
+	android:name
+		ADDED from [com.stripe:paymentsheet:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/0de316cb2362d8de9db7be118fe9e066/transformed/jetified-paymentsheet-20.15.4/AndroidManifest.xml:11:13-80
+activity#com.stripe.android.paymentsheet.PaymentOptionsActivity
+ADDED from [com.stripe:paymentsheet:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/0de316cb2362d8de9db7be118fe9e066/transformed/jetified-paymentsheet-20.15.4/AndroidManifest.xml:14:9-17:69
+	android:exported
+		ADDED from [com.stripe:paymentsheet:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/0de316cb2362d8de9db7be118fe9e066/transformed/jetified-paymentsheet-20.15.4/AndroidManifest.xml:16:13-37
+	android:theme
+		ADDED from [com.stripe:paymentsheet:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/0de316cb2362d8de9db7be118fe9e066/transformed/jetified-paymentsheet-20.15.4/AndroidManifest.xml:17:13-66
+	android:name
+		ADDED from [com.stripe:paymentsheet:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/0de316cb2362d8de9db7be118fe9e066/transformed/jetified-paymentsheet-20.15.4/AndroidManifest.xml:15:13-82
+activity#com.stripe.android.paymentsheet.addresselement.AddressElementActivity
+ADDED from [com.stripe:paymentsheet:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/0de316cb2362d8de9db7be118fe9e066/transformed/jetified-paymentsheet-20.15.4/AndroidManifest.xml:18:9-21:69
+	android:exported
+		ADDED from [com.stripe:paymentsheet:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/0de316cb2362d8de9db7be118fe9e066/transformed/jetified-paymentsheet-20.15.4/AndroidManifest.xml:20:13-37
+	android:theme
+		ADDED from [com.stripe:paymentsheet:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/0de316cb2362d8de9db7be118fe9e066/transformed/jetified-paymentsheet-20.15.4/AndroidManifest.xml:21:13-66
+	android:name
+		ADDED from [com.stripe:paymentsheet:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/0de316cb2362d8de9db7be118fe9e066/transformed/jetified-paymentsheet-20.15.4/AndroidManifest.xml:19:13-97
+activity#com.stripe.android.paymentsheet.paymentdatacollection.polling.PollingActivity
+ADDED from [com.stripe:paymentsheet:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/0de316cb2362d8de9db7be118fe9e066/transformed/jetified-paymentsheet-20.15.4/AndroidManifest.xml:22:9-25:69
+	android:exported
+		ADDED from [com.stripe:paymentsheet:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/0de316cb2362d8de9db7be118fe9e066/transformed/jetified-paymentsheet-20.15.4/AndroidManifest.xml:24:13-37
+	android:theme
+		ADDED from [com.stripe:paymentsheet:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/0de316cb2362d8de9db7be118fe9e066/transformed/jetified-paymentsheet-20.15.4/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.stripe:paymentsheet:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/0de316cb2362d8de9db7be118fe9e066/transformed/jetified-paymentsheet-20.15.4/AndroidManifest.xml:23:13-105
+activity#com.stripe.android.link.LinkActivity
+ADDED from [com.stripe:link:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/a853669d1f0128b8df22b00fe66ef467/transformed/jetified-link-20.15.4/AndroidManifest.xml:10:9-15:58
+	android:label
+		ADDED from [com.stripe:link:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/a853669d1f0128b8df22b00fe66ef467/transformed/jetified-link-20.15.4/AndroidManifest.xml:13:13-41
+	android:windowSoftInputMode
+		ADDED from [com.stripe:link:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/a853669d1f0128b8df22b00fe66ef467/transformed/jetified-link-20.15.4/AndroidManifest.xml:15:13-55
+	android:exported
+		ADDED from [com.stripe:link:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/a853669d1f0128b8df22b00fe66ef467/transformed/jetified-link-20.15.4/AndroidManifest.xml:12:13-37
+	android:theme
+		ADDED from [com.stripe:link:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/a853669d1f0128b8df22b00fe66ef467/transformed/jetified-link-20.15.4/AndroidManifest.xml:14:13-49
+	android:name
+		ADDED from [com.stripe:link:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/a853669d1f0128b8df22b00fe66ef467/transformed/jetified-link-20.15.4/AndroidManifest.xml:11:13-64
+queries
+ADDED from [com.stripe:financial-connections:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/fcca9434f6440ed6eeb6da81668ac882/transformed/jetified-financial-connections-20.15.4/AndroidManifest.xml:12:5-20:15
+MERGED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:10:5-14:15
+MERGED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:10:5-14:15
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/twinprogrammers/.gradle/caches/transforms-3/fc4e0135201e11c478742126d5d9a178/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:30:5-34:15
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/twinprogrammers/.gradle/caches/transforms-3/fc4e0135201e11c478742126d5d9a178/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:30:5-34:15
+intent#action:name:android.intent.action.VIEW+data:scheme:http
+ADDED from [com.stripe:financial-connections:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/fcca9434f6440ed6eeb6da81668ac882/transformed/jetified-financial-connections-20.15.4/AndroidManifest.xml:15:9-19:18
+action#android.intent.action.VIEW
+ADDED from [com.stripe:financial-connections:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/fcca9434f6440ed6eeb6da81668ac882/transformed/jetified-financial-connections-20.15.4/AndroidManifest.xml:16:13-65
+	android:name
+		ADDED from [com.stripe:financial-connections:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/fcca9434f6440ed6eeb6da81668ac882/transformed/jetified-financial-connections-20.15.4/AndroidManifest.xml:16:21-62
+data
+ADDED from [com.stripe:financial-connections:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/fcca9434f6440ed6eeb6da81668ac882/transformed/jetified-financial-connections-20.15.4/AndroidManifest.xml:18:13-43
+	android:scheme
+		ADDED from [com.stripe:financial-connections:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/fcca9434f6440ed6eeb6da81668ac882/transformed/jetified-financial-connections-20.15.4/AndroidManifest.xml:18:19-40
+activity#com.stripe.android.financialconnections.FinancialConnectionsSheetRedirectActivity
+ADDED from [com.stripe:financial-connections:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/fcca9434f6440ed6eeb6da81668ac882/transformed/jetified-financial-connections-20.15.4/AndroidManifest.xml:23:9-42:20
+	android:exported
+		ADDED from [com.stripe:financial-connections:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/fcca9434f6440ed6eeb6da81668ac882/transformed/jetified-financial-connections-20.15.4/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [com.stripe:financial-connections:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/fcca9434f6440ed6eeb6da81668ac882/transformed/jetified-financial-connections-20.15.4/AndroidManifest.xml:24:13-109
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:link-accounts+data:host:link-accounts+data:path:/${applicationId}/cancel+data:path:/${applicationId}/success+data:scheme:stripe-auth+data:scheme:stripe-auth
+ADDED from [com.stripe:financial-connections:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/fcca9434f6440ed6eeb6da81668ac882/transformed/jetified-financial-connections-20.15.4/AndroidManifest.xml:26:13-41:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:link-accounts+data:host:link-accounts+data:path:/com.example.human_tek_app/cancel+data:path:/com.example.human_tek_app/success+data:scheme:stripe-auth+data:scheme:stripe-auth
+ADDED from [com.stripe:financial-connections:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/fcca9434f6440ed6eeb6da81668ac882/transformed/jetified-financial-connections-20.15.4/AndroidManifest.xml:26:13-41:29
+category#android.intent.category.DEFAULT
+ADDED from [com.stripe:financial-connections:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/fcca9434f6440ed6eeb6da81668ac882/transformed/jetified-financial-connections-20.15.4/AndroidManifest.xml:29:17-76
+	android:name
+		ADDED from [com.stripe:financial-connections:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/fcca9434f6440ed6eeb6da81668ac882/transformed/jetified-financial-connections-20.15.4/AndroidManifest.xml:29:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.stripe:financial-connections:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/fcca9434f6440ed6eeb6da81668ac882/transformed/jetified-financial-connections-20.15.4/AndroidManifest.xml:30:17-78
+	android:name
+		ADDED from [com.stripe:financial-connections:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/fcca9434f6440ed6eeb6da81668ac882/transformed/jetified-financial-connections-20.15.4/AndroidManifest.xml:30:27-75
+activity#com.stripe.android.financialconnections.FinancialConnectionsSheetActivity
+ADDED from [com.stripe:financial-connections:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/fcca9434f6440ed6eeb6da81668ac882/transformed/jetified-financial-connections-20.15.4/AndroidManifest.xml:43:9-46:57
+	android:exported
+		ADDED from [com.stripe:financial-connections:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/fcca9434f6440ed6eeb6da81668ac882/transformed/jetified-financial-connections-20.15.4/AndroidManifest.xml:45:13-37
+	android:theme
+		ADDED from [com.stripe:financial-connections:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/fcca9434f6440ed6eeb6da81668ac882/transformed/jetified-financial-connections-20.15.4/AndroidManifest.xml:46:13-54
+	android:name
+		ADDED from [com.stripe:financial-connections:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/fcca9434f6440ed6eeb6da81668ac882/transformed/jetified-financial-connections-20.15.4/AndroidManifest.xml:44:13-101
+provider#com.stripe.android.financialconnections.appinitializer.FinancialConnectionsInitializer
+ADDED from [com.stripe:financial-connections:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/fcca9434f6440ed6eeb6da81668ac882/transformed/jetified-financial-connections-20.15.4/AndroidManifest.xml:48:9-52:43
+	android:authorities
+		ADDED from [com.stripe:financial-connections:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/fcca9434f6440ed6eeb6da81668ac882/transformed/jetified-financial-connections-20.15.4/AndroidManifest.xml:50:13-77
+	android:multiprocess
+		ADDED from [com.stripe:financial-connections:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/fcca9434f6440ed6eeb6da81668ac882/transformed/jetified-financial-connections-20.15.4/AndroidManifest.xml:52:13-40
+	android:exported
+		ADDED from [com.stripe:financial-connections:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/fcca9434f6440ed6eeb6da81668ac882/transformed/jetified-financial-connections-20.15.4/AndroidManifest.xml:51:13-37
+	android:name
+		ADDED from [com.stripe:financial-connections:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/fcca9434f6440ed6eeb6da81668ac882/transformed/jetified-financial-connections-20.15.4/AndroidManifest.xml:49:13-114
+activity#com.stripe.android.ui.core.cardscan.CardScanActivity
+ADDED from [com.stripe:payments-ui-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/ef77100ff4706a26a39e57056065fe80/transformed/jetified-payments-ui-core-20.15.4/AndroidManifest.xml:10:9-13:69
+	android:exported
+		ADDED from [com.stripe:payments-ui-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/ef77100ff4706a26a39e57056065fe80/transformed/jetified-payments-ui-core-20.15.4/AndroidManifest.xml:12:13-37
+	android:theme
+		ADDED from [com.stripe:payments-ui-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/ef77100ff4706a26a39e57056065fe80/transformed/jetified-payments-ui-core-20.15.4/AndroidManifest.xml:13:13-66
+	android:name
+		ADDED from [com.stripe:payments-ui-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/ef77100ff4706a26a39e57056065fe80/transformed/jetified-payments-ui-core-20.15.4/AndroidManifest.xml:11:13-80
+package#com.android.chrome
+ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:13:9-54
+	android:name
+		ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:13:18-51
+activity#com.stripe.android.view.AddPaymentMethodActivity
+ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:17:9-20:57
+	android:exported
+		ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:19:13-37
+	android:theme
+		ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:20:13-54
+	android:name
+		ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:18:13-76
+activity#com.stripe.android.view.PaymentMethodsActivity
+ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:21:9-24:57
+	android:exported
+		ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:23:13-37
+	android:theme
+		ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:24:13-54
+	android:name
+		ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:22:13-74
+activity#com.stripe.android.view.PaymentFlowActivity
+ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:25:9-28:57
+	android:exported
+		ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:27:13-37
+	android:theme
+		ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:28:13-54
+	android:name
+		ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:26:13-71
+activity#com.stripe.android.view.PaymentAuthWebViewActivity
+ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:29:9-33:58
+	android:windowSoftInputMode
+		ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:33:13-55
+	android:exported
+		ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:31:13-37
+	android:theme
+		ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:32:13-54
+	android:name
+		ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:30:13-78
+activity#com.stripe.android.view.PaymentRelayActivity
+ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:34:9-37:61
+	android:exported
+		ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:36:13-37
+	android:theme
+		ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:37:13-58
+	android:name
+		ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:35:13-72
+activity#com.stripe.android.payments.StripeBrowserLauncherActivity
+ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:43:9-47:61
+	android:launchMode
+		ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:46:13-44
+	android:exported
+		ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:45:13-37
+	android:theme
+		ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:47:13-58
+	android:name
+		ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:44:13-85
+activity#com.stripe.android.payments.StripeBrowserProxyReturnActivity
+ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:48:9-65:20
+	android:launchMode
+		ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:51:13-44
+	android:exported
+		ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:52:13-58
+	android:name
+		ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:49:13-88
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:payment_return_url+data:path:/${applicationId}+data:scheme:stripesdk
+ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:53:13-64:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:payment_return_url+data:path:/com.example.human_tek_app+data:scheme:stripesdk
+ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:53:13-64:29
+activity#com.stripe.android.payments.core.authentication.threeds2.Stripe3ds2TransactionActivity
+ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:66:9-69:57
+	android:exported
+		ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:68:13-37
+	android:theme
+		ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:69:13-54
+	android:name
+		ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:67:13-114
+activity#com.stripe.android.googlepaylauncher.StripeGooglePayActivity
+ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:70:9-73:66
+	android:exported
+		ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:72:13-37
+	android:theme
+		ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:73:13-63
+	android:name
+		ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:71:13-88
+activity#com.stripe.android.googlepaylauncher.GooglePayLauncherActivity
+ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:74:9-77:66
+	android:exported
+		ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:76:13-37
+	android:theme
+		ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:77:13-63
+	android:name
+		ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:75:13-90
+activity#com.stripe.android.googlepaylauncher.GooglePayPaymentMethodLauncherActivity
+ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:78:9-81:66
+	android:exported
+		ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:80:13-37
+	android:theme
+		ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:81:13-63
+	android:name
+		ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:79:13-103
+activity#com.stripe.android.payments.paymentlauncher.PaymentLauncherConfirmationActivity
+ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:82:9-85:62
+	android:exported
+		ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:84:13-37
+	android:theme
+		ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:85:13-59
+	android:name
+		ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:83:13-107
+activity#com.stripe.android.payments.bankaccount.ui.CollectBankAccountActivity
+ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:86:9-89:61
+	android:exported
+		ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:88:13-37
+	android:theme
+		ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:89:13-58
+	android:name
+		ADDED from [com.stripe:payments-core:20.15.4] /Users/twinprogrammers/.gradle/caches/transforms-3/83b3ac7637afebba84cbc00cdee34fd0/transformed/jetified-payments-core-20.15.4/AndroidManifest.xml:87:13-97
+activity#com.stripe.android.stripe3ds2.views.ChallengeActivity
+ADDED from [com.stripe:stripe-3ds2-android:6.1.5] /Users/twinprogrammers/.gradle/caches/transforms-3/e42ca98e791ddbe37fb8f0c324a5b15d/transformed/jetified-stripe-3ds2-android-6.1.5/AndroidManifest.xml:10:9-13:54
+	android:exported
+		ADDED from [com.stripe:stripe-3ds2-android:6.1.5] /Users/twinprogrammers/.gradle/caches/transforms-3/e42ca98e791ddbe37fb8f0c324a5b15d/transformed/jetified-stripe-3ds2-android-6.1.5/AndroidManifest.xml:12:13-37
+	android:theme
+		ADDED from [com.stripe:stripe-3ds2-android:6.1.5] /Users/twinprogrammers/.gradle/caches/transforms-3/e42ca98e791ddbe37fb8f0c324a5b15d/transformed/jetified-stripe-3ds2-android-6.1.5/AndroidManifest.xml:13:13-51
+	android:name
+		ADDED from [com.stripe:stripe-3ds2-android:6.1.5] /Users/twinprogrammers/.gradle/caches/transforms-3/e42ca98e791ddbe37fb8f0c324a5b15d/transformed/jetified-stripe-3ds2-android-6.1.5/AndroidManifest.xml:11:13-81
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/0e288c23150ea98627653f6f9a78c1a4/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/twinprogrammers/.gradle/caches/transforms-3/8044603b59fe1392abeb395319ca879f/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/twinprogrammers/.gradle/caches/transforms-3/8044603b59fe1392abeb395319ca879f/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/twinprogrammers/.gradle/caches/transforms-3/fc4e0135201e11c478742126d5d9a178/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/twinprogrammers/.gradle/caches/transforms-3/fc4e0135201e11c478742126d5d9a178/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/0e288c23150ea98627653f6f9a78c1a4/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:26:22-76
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/0e288c23150ea98627653f6f9a78c1a4/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:29:9-46:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/0e288c23150ea98627653f6f9a78c1a4/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/0e288c23150ea98627653f6f9a78c1a4/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:33:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/0e288c23150ea98627653f6f9a78c1a4/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/0e288c23150ea98627653f6f9a78c1a4/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/0e288c23150ea98627653f6f9a78c1a4/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/0e288c23150ea98627653f6f9a78c1a4/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:35:13-45:29
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/0e288c23150ea98627653f6f9a78c1a4/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/0e288c23150ea98627653f6f9a78c1a4/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/0e288c23150ea98627653f6f9a78c1a4/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:51:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/0e288c23150ea98627653f6f9a78c1a4/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/0e288c23150ea98627653f6f9a78c1a4/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:52:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/0e288c23150ea98627653f6f9a78c1a4/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/0e288c23150ea98627653f6f9a78c1a4/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:53:13-63:29
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/0e288c23150ea98627653f6f9a78c1a4/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:69:13-71:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/0e288c23150ea98627653f6f9a78c1a4/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:71:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/twinprogrammers/.gradle/caches/transforms-3/0e288c23150ea98627653f6f9a78c1a4/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:70:17-109
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/twinprogrammers/.gradle/caches/transforms-3/e170dac69fec62a6cd7762c611d62c43/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/twinprogrammers/.gradle/caches/transforms-3/e170dac69fec62a6cd7762c611d62c43/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:20.4.2] /Users/twinprogrammers/.gradle/caches/transforms-3/e170dac69fec62a6cd7762c611d62c43/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:13:17-116
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/twinprogrammers/.gradle/caches/transforms-3/3c460608ab09e296eb3e043fe9961b74/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/twinprogrammers/.gradle/caches/transforms-3/3c460608ab09e296eb3e043fe9961b74/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/twinprogrammers/.gradle/caches/transforms-3/3c460608ab09e296eb3e043fe9961b74/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/twinprogrammers/.gradle/caches/transforms-3/3c460608ab09e296eb3e043fe9961b74/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/twinprogrammers/.gradle/caches/transforms-3/3c460608ab09e296eb3e043fe9961b74/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/twinprogrammers/.gradle/caches/transforms-3/3c460608ab09e296eb3e043fe9961b74/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/twinprogrammers/.gradle/caches/transforms-3/3c460608ab09e296eb3e043fe9961b74/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/twinprogrammers/.gradle/caches/transforms-3/3c460608ab09e296eb3e043fe9961b74/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/twinprogrammers/.gradle/caches/transforms-3/3c460608ab09e296eb3e043fe9961b74/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:36:17-109
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/twinprogrammers/.gradle/caches/transforms-3/fc4e0135201e11c478742126d5d9a178/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/twinprogrammers/.gradle/caches/transforms-3/fc4e0135201e11c478742126d5d9a178/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/twinprogrammers/.gradle/caches/transforms-3/fc4e0135201e11c478742126d5d9a178/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:28:9-32
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/twinprogrammers/.gradle/caches/transforms-3/fc4e0135201e11c478742126d5d9a178/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/twinprogrammers/.gradle/caches/transforms-3/fc4e0135201e11c478742126d5d9a178/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/twinprogrammers/.gradle/caches/transforms-3/fc4e0135201e11c478742126d5d9a178/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/twinprogrammers/.gradle/caches/transforms-3/fc4e0135201e11c478742126d5d9a178/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/twinprogrammers/.gradle/caches/transforms-3/fc4e0135201e11c478742126d5d9a178/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:40:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/twinprogrammers/.gradle/caches/transforms-3/4456ec95dc8de64d8fb4368ae916802e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/twinprogrammers/.gradle/caches/transforms-3/4456ec95dc8de64d8fb4368ae916802e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/twinprogrammers/.gradle/caches/transforms-3/4456ec95dc8de64d8fb4368ae916802e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/twinprogrammers/.gradle/caches/transforms-3/4456ec95dc8de64d8fb4368ae916802e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/twinprogrammers/.gradle/caches/transforms-3/3f3474a753e5a1b1c7fb1eefab13dc5a/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/twinprogrammers/.gradle/caches/transforms-3/3f3474a753e5a1b1c7fb1eefab13dc5a/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/twinprogrammers/.gradle/caches/transforms-3/3f3474a753e5a1b1c7fb1eefab13dc5a/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/twinprogrammers/.gradle/caches/transforms-3/0c51099c9159b68d0fe99e13bf07b9df/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/twinprogrammers/.gradle/caches/transforms-3/0c51099c9159b68d0fe99e13bf07b9df/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/twinprogrammers/.gradle/caches/transforms-3/0c51099c9159b68d0fe99e13bf07b9df/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/twinprogrammers/.gradle/caches/transforms-3/0c51099c9159b68d0fe99e13bf07b9df/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/twinprogrammers/.gradle/caches/transforms-3/0c51099c9159b68d0fe99e13bf07b9df/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/twinprogrammers/.gradle/caches/transforms-3/0c51099c9159b68d0fe99e13bf07b9df/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/2d37a6e46142298ee39f3ccb63051524/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/8e81b10a8970c2d35eb24f959edbc917/transformed/jetified-profileinstaller-1.2.0/AndroidManifest.xml:25:9-33:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/8e81b10a8970c2d35eb24f959edbc917/transformed/jetified-profileinstaller-1.2.0/AndroidManifest.xml:25:9-33:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/twinprogrammers/.gradle/caches/transforms-3/4db415c24a44ca8a6cc57d1a7172e531/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/twinprogrammers/.gradle/caches/transforms-3/4db415c24a44ca8a6cc57d1a7172e531/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/twinprogrammers/.gradle/caches/transforms-3/ac6f35a5458531f1a344e2d1cfed34d3/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/twinprogrammers/.gradle/caches/transforms-3/ac6f35a5458531f1a344e2d1cfed34d3/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/2d37a6e46142298ee39f3ccb63051524/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/2d37a6e46142298ee39f3ccb63051524/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/2d37a6e46142298ee39f3ccb63051524/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/2d37a6e46142298ee39f3ccb63051524/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/2d37a6e46142298ee39f3ccb63051524/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/2d37a6e46142298ee39f3ccb63051524/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/2d37a6e46142298ee39f3ccb63051524/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/8e81b10a8970c2d35eb24f959edbc917/transformed/jetified-profileinstaller-1.2.0/AndroidManifest.xml:30:13-32:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/8e81b10a8970c2d35eb24f959edbc917/transformed/jetified-profileinstaller-1.2.0/AndroidManifest.xml:32:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/8e81b10a8970c2d35eb24f959edbc917/transformed/jetified-profileinstaller-1.2.0/AndroidManifest.xml:31:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/8e81b10a8970c2d35eb24f959edbc917/transformed/jetified-profileinstaller-1.2.0/AndroidManifest.xml:35:9-47:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/8e81b10a8970c2d35eb24f959edbc917/transformed/jetified-profileinstaller-1.2.0/AndroidManifest.xml:38:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/8e81b10a8970c2d35eb24f959edbc917/transformed/jetified-profileinstaller-1.2.0/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/8e81b10a8970c2d35eb24f959edbc917/transformed/jetified-profileinstaller-1.2.0/AndroidManifest.xml:40:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/8e81b10a8970c2d35eb24f959edbc917/transformed/jetified-profileinstaller-1.2.0/AndroidManifest.xml:37:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/8e81b10a8970c2d35eb24f959edbc917/transformed/jetified-profileinstaller-1.2.0/AndroidManifest.xml:36:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/8e81b10a8970c2d35eb24f959edbc917/transformed/jetified-profileinstaller-1.2.0/AndroidManifest.xml:41:13-43:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/8e81b10a8970c2d35eb24f959edbc917/transformed/jetified-profileinstaller-1.2.0/AndroidManifest.xml:42:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/8e81b10a8970c2d35eb24f959edbc917/transformed/jetified-profileinstaller-1.2.0/AndroidManifest.xml:42:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/8e81b10a8970c2d35eb24f959edbc917/transformed/jetified-profileinstaller-1.2.0/AndroidManifest.xml:44:13-46:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/8e81b10a8970c2d35eb24f959edbc917/transformed/jetified-profileinstaller-1.2.0/AndroidManifest.xml:45:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.2.0] /Users/twinprogrammers/.gradle/caches/transforms-3/8e81b10a8970c2d35eb24f959edbc917/transformed/jetified-profileinstaller-1.2.0/AndroidManifest.xml:45:25-82
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/twinprogrammers/.gradle/caches/transforms-3/4db415c24a44ca8a6cc57d1a7172e531/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/twinprogrammers/.gradle/caches/transforms-3/4db415c24a44ca8a6cc57d1a7172e531/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/twinprogrammers/.gradle/caches/transforms-3/4db415c24a44ca8a6cc57d1a7172e531/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/twinprogrammers/.gradle/caches/transforms-3/a9d7dcf69bf27fe0e89d9527cd94680f/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /Users/twinprogrammers/.gradle/caches/transforms-3/a9d7dcf69bf27fe0e89d9527cd94680f/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/twinprogrammers/.gradle/caches/transforms-3/a9d7dcf69bf27fe0e89d9527cd94680f/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+permission#com.example.human_tek_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/twinprogrammers/.gradle/caches/transforms-3/a9d7dcf69bf27fe0e89d9527cd94680f/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /Users/twinprogrammers/.gradle/caches/transforms-3/a9d7dcf69bf27fe0e89d9527cd94680f/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/twinprogrammers/.gradle/caches/transforms-3/a9d7dcf69bf27fe0e89d9527cd94680f/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/twinprogrammers/.gradle/caches/transforms-3/a9d7dcf69bf27fe0e89d9527cd94680f/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/twinprogrammers/.gradle/caches/transforms-3/a9d7dcf69bf27fe0e89d9527cd94680f/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+uses-permission#com.example.human_tek_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/twinprogrammers/.gradle/caches/transforms-3/a9d7dcf69bf27fe0e89d9527cd94680f/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/twinprogrammers/.gradle/caches/transforms-3/a9d7dcf69bf27fe0e89d9527cd94680f/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+meta-data#aia-compat-api-min-version
+ADDED from [com.google.android.instantapps:instantapps:1.1.0] /Users/twinprogrammers/.gradle/caches/transforms-3/eb4c0274db972fba2f8496d7c0dd61cb/transformed/jetified-instantapps-1.1.0/AndroidManifest.xml:10:9-12:33
+	android:value
+		ADDED from [com.google.android.instantapps:instantapps:1.1.0] /Users/twinprogrammers/.gradle/caches/transforms-3/eb4c0274db972fba2f8496d7c0dd61cb/transformed/jetified-instantapps-1.1.0/AndroidManifest.xml:12:13-30
+	android:name
+		ADDED from [com.google.android.instantapps:instantapps:1.1.0] /Users/twinprogrammers/.gradle/caches/transforms-3/eb4c0274db972fba2f8496d7c0dd61cb/transformed/jetified-instantapps-1.1.0/AndroidManifest.xml:11:13-54
